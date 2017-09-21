@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F2067731F7390DE00308C55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2067721F7390DE00308C55 /* AppDelegate.swift */; };
+		3F2067751F7390DE00308C55 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2067741F7390DE00308C55 /* art.scnassets */; };
+		3F2067771F7390DE00308C55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2067761F7390DE00308C55 /* ViewController.swift */; };
+		3F20677A1F7390DE00308C55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2067781F7390DE00308C55 /* Main.storyboard */; };
+		3F20677C1F7390DE00308C55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F20677B1F7390DE00308C55 /* Assets.xcassets */; };
+		3F20677F1F7390DE00308C55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F20677D1F7390DE00308C55 /* LaunchScreen.storyboard */; };
+		3F20678A1F7390DE00308C55 /* Nano_ChessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2067891F7390DE00308C55 /* Nano_ChessTests.swift */; };
+		3F2067951F7390DF00308C55 /* Nano_ChessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2067941F7390DF00308C55 /* Nano_ChessUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F2067861F7390DE00308C55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F2067671F7390DE00308C55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F20676E1F7390DE00308C55;
+			remoteInfo = "Nano-Chess";
+		};
+		3F2067911F7390DF00308C55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F2067671F7390DE00308C55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F20676E1F7390DE00308C55;
+			remoteInfo = "Nano-Chess";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F20676F1F7390DE00308C55 /* Nano-Chess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nano-Chess.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2067721F7390DE00308C55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F2067741F7390DE00308C55 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		3F2067761F7390DE00308C55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F2067791F7390DE00308C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F20677B1F7390DE00308C55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F20677E1F7390DE00308C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F2067801F7390DE00308C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2067851F7390DE00308C55 /* Nano-ChessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nano-ChessTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2067891F7390DE00308C55 /* Nano_ChessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nano_ChessTests.swift; sourceTree = "<group>"; };
+		3F20678B1F7390DE00308C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2067901F7390DF00308C55 /* Nano-ChessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nano-ChessUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2067941F7390DF00308C55 /* Nano_ChessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nano_ChessUITests.swift; sourceTree = "<group>"; };
+		3F2067961F7390DF00308C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F20676C1F7390DE00308C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2067821F7390DE00308C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F20678D1F7390DF00308C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F2067661F7390DE00308C55 = {
+			isa = PBXGroup;
+			children = (
+				3F2067711F7390DE00308C55 /* Nano-Chess */,
+				3F2067881F7390DE00308C55 /* Nano-ChessTests */,
+				3F2067931F7390DF00308C55 /* Nano-ChessUITests */,
+				3F2067701F7390DE00308C55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F2067701F7390DE00308C55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F20676F1F7390DE00308C55 /* Nano-Chess.app */,
+				3F2067851F7390DE00308C55 /* Nano-ChessTests.xctest */,
+				3F2067901F7390DF00308C55 /* Nano-ChessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F2067711F7390DE00308C55 /* Nano-Chess */ = {
+			isa = PBXGroup;
+			children = (
+				3F2067721F7390DE00308C55 /* AppDelegate.swift */,
+				3F2067741F7390DE00308C55 /* art.scnassets */,
+				3F2067761F7390DE00308C55 /* ViewController.swift */,
+				3F2067781F7390DE00308C55 /* Main.storyboard */,
+				3F20677B1F7390DE00308C55 /* Assets.xcassets */,
+				3F20677D1F7390DE00308C55 /* LaunchScreen.storyboard */,
+				3F2067801F7390DE00308C55 /* Info.plist */,
+			);
+			path = "Nano-Chess";
+			sourceTree = "<group>";
+		};
+		3F2067881F7390DE00308C55 /* Nano-ChessTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F2067891F7390DE00308C55 /* Nano_ChessTests.swift */,
+				3F20678B1F7390DE00308C55 /* Info.plist */,
+			);
+			path = "Nano-ChessTests";
+			sourceTree = "<group>";
+		};
+		3F2067931F7390DF00308C55 /* Nano-ChessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F2067941F7390DF00308C55 /* Nano_ChessUITests.swift */,
+				3F2067961F7390DF00308C55 /* Info.plist */,
+			);
+			path = "Nano-ChessUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F20676E1F7390DE00308C55 /* Nano-Chess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2067991F7390DF00308C55 /* Build configuration list for PBXNativeTarget "Nano-Chess" */;
+			buildPhases = (
+				3F20676B1F7390DE00308C55 /* Sources */,
+				3F20676C1F7390DE00308C55 /* Frameworks */,
+				3F20676D1F7390DE00308C55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nano-Chess";
+			productName = "Nano-Chess";
+			productReference = 3F20676F1F7390DE00308C55 /* Nano-Chess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F2067841F7390DE00308C55 /* Nano-ChessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F20679C1F7390DF00308C55 /* Build configuration list for PBXNativeTarget "Nano-ChessTests" */;
+			buildPhases = (
+				3F2067811F7390DE00308C55 /* Sources */,
+				3F2067821F7390DE00308C55 /* Frameworks */,
+				3F2067831F7390DE00308C55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F2067871F7390DE00308C55 /* PBXTargetDependency */,
+			);
+			name = "Nano-ChessTests";
+			productName = "Nano-ChessTests";
+			productReference = 3F2067851F7390DE00308C55 /* Nano-ChessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F20678F1F7390DF00308C55 /* Nano-ChessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F20679F1F7390DF00308C55 /* Build configuration list for PBXNativeTarget "Nano-ChessUITests" */;
+			buildPhases = (
+				3F20678C1F7390DF00308C55 /* Sources */,
+				3F20678D1F7390DF00308C55 /* Frameworks */,
+				3F20678E1F7390DF00308C55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F2067921F7390DF00308C55 /* PBXTargetDependency */,
+			);
+			name = "Nano-ChessUITests";
+			productName = "Nano-ChessUITests";
+			productReference = 3F2067901F7390DF00308C55 /* Nano-ChessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F2067671F7390DE00308C55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = twoidiots;
+				TargetAttributes = {
+					3F20676E1F7390DE00308C55 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					3F2067841F7390DE00308C55 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F20676E1F7390DE00308C55;
+					};
+					3F20678F1F7390DF00308C55 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F20676E1F7390DE00308C55;
+					};
+				};
+			};
+			buildConfigurationList = 3F20676A1F7390DE00308C55 /* Build configuration list for PBXProject "Nano-Chess" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F2067661F7390DE00308C55;
+			productRefGroup = 3F2067701F7390DE00308C55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F20676E1F7390DE00308C55 /* Nano-Chess */,
+				3F2067841F7390DE00308C55 /* Nano-ChessTests */,
+				3F20678F1F7390DF00308C55 /* Nano-ChessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F20676D1F7390DE00308C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2067751F7390DE00308C55 /* art.scnassets in Resources */,
+				3F20677F1F7390DE00308C55 /* LaunchScreen.storyboard in Resources */,
+				3F20677C1F7390DE00308C55 /* Assets.xcassets in Resources */,
+				3F20677A1F7390DE00308C55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2067831F7390DE00308C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F20678E1F7390DF00308C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F20676B1F7390DE00308C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2067771F7390DE00308C55 /* ViewController.swift in Sources */,
+				3F2067731F7390DE00308C55 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2067811F7390DE00308C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F20678A1F7390DE00308C55 /* Nano_ChessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F20678C1F7390DF00308C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2067951F7390DF00308C55 /* Nano_ChessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F2067871F7390DE00308C55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F20676E1F7390DE00308C55 /* Nano-Chess */;
+			targetProxy = 3F2067861F7390DE00308C55 /* PBXContainerItemProxy */;
+		};
+		3F2067921F7390DF00308C55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F20676E1F7390DE00308C55 /* Nano-Chess */;
+			targetProxy = 3F2067911F7390DF00308C55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F2067781F7390DE00308C55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F2067791F7390DE00308C55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F20677D1F7390DE00308C55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F20677E1F7390DE00308C55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F2067971F7390DF00308C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F2067981F7390DF00308C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F20679A1F7390DF00308C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8F86YVB5U;
+				INFOPLIST_FILE = "Nano-Chess/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "twoidiots.Nano-Chess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F20679B1F7390DF00308C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8F86YVB5U;
+				INFOPLIST_FILE = "Nano-Chess/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "twoidiots.Nano-Chess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F20679D1F7390DF00308C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8F86YVB5U;
+				INFOPLIST_FILE = "Nano-ChessTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "twoidiots.Nano-ChessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nano-Chess.app/Nano-Chess";
+			};
+			name = Debug;
+		};
+		3F20679E1F7390DF00308C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8F86YVB5U;
+				INFOPLIST_FILE = "Nano-ChessTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "twoidiots.Nano-ChessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nano-Chess.app/Nano-Chess";
+			};
+			name = Release;
+		};
+		3F2067A01F7390DF00308C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8F86YVB5U;
+				INFOPLIST_FILE = "Nano-ChessUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "twoidiots.Nano-ChessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nano-Chess";
+			};
+			name = Debug;
+		};
+		3F2067A11F7390DF00308C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8F86YVB5U;
+				INFOPLIST_FILE = "Nano-ChessUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "twoidiots.Nano-ChessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nano-Chess";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F20676A1F7390DE00308C55 /* Build configuration list for PBXProject "Nano-Chess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2067971F7390DF00308C55 /* Debug */,
+				3F2067981F7390DF00308C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F2067991F7390DF00308C55 /* Build configuration list for PBXNativeTarget "Nano-Chess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F20679A1F7390DF00308C55 /* Debug */,
+				3F20679B1F7390DF00308C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F20679C1F7390DF00308C55 /* Build configuration list for PBXNativeTarget "Nano-ChessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F20679D1F7390DF00308C55 /* Debug */,
+				3F20679E1F7390DF00308C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F20679F1F7390DF00308C55 /* Build configuration list for PBXNativeTarget "Nano-ChessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2067A01F7390DF00308C55 /* Debug */,
+				3F2067A11F7390DF00308C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F2067671F7390DE00308C55 /* Project object */;
+}
